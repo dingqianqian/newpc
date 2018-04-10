@@ -1,0 +1,220 @@
+.z-select{
+	width: 32% !important;
+}
+.z-textarea{
+	width: 100% !important;
+	padding-left: 10px;
+}
+.btn-default{
+	background: #FFFFFF !important;
+}
+@media screen and (max-width: 1920px) {
+	.z-select {
+		width: 32.5% !important;
+	}
+}
+@media screen and (max-width: 1466px) {
+    .z-select {
+        width: 32% !important;
+    }
+}
+@media screen and (max-width: 885px) {
+    .z-select {
+        width: 31% !important;
+    }
+}
+@media (max-width:414px ) {
+	.z-select{
+		width: 46% !important;
+	}
+}
+.z-editor{
+	margin: 0 !important;
+}
+/*单选框*/
+@media screen and (max-width: 885px) {
+    .z-p {
+        width: 50% !important;
+    }
+}
+.zf-img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	border: 2px solid gray;
+}
+.zfa-img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	border: 2px solid gray;
+}
+@media screen and (max-width: 1300px) {
+    .z-div {
+        width: 50% !important;
+    }
+}
+@media screen and (max-width: 320px) {
+	.zf-img{
+		 width: 70px;
+		 height: 70px;
+		 display: inline-block;
+		 border: 2px solid gray;
+	 }
+	.zfa-img{
+		width: 70px;
+		height: 70px;
+		display: inline-block;
+		border: 2px solid gray;
+	}
+}
+.zf-img .preview {
+	color: #333;
+	text-decoration: none;
+}
+
+.zf-img .preview img {
+	width: 100% !important;
+	height: 100% !important;
+}
+.zfa-img .preview {
+	color: #333;
+	text-decoration: none;
+}
+
+.zfa-img .preview img {
+	width: 100% !important;
+	height: 100% !important;
+}
+/* previewShowWindow */
+.previewShowWindow {
+	position: absolute;
+	border: 1px solid #dadade;
+	background: #95959d;
+	padding: 5px;
+	display: none;
+	color: #fff;
+	text-align: center;
+	z-index: 10000;
+}
+.previewShowWindow img{
+	width: 600px;
+	height: auto;
+}
+@media (max-width: 768px){
+		.previewShowWindow img{
+		width: 150px;
+		height: auto;
+	}
+}
+.z-img{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 10px;
+	overflow: hidden;
+	/*margin-bottom: 5px;*/
+}
+.z-diva input{
+	margin-top: 0 !important;
+}
+.z-img img{
+	width: 100%;
+	width: 100%;
+}
+.z-show{
+	width: 500px;
+	position: absolute;
+	left: 80px;
+	top: 15px;
+	height: auto;
+	z-index: 100000;
+	overflow-y: scroll;
+	display: none;
+	border: 1px solid gray;
+	background: gray;
+	padding: 5px;
+}
+.z-show img{
+	width: 100%;
+	width: 100%;
+}
+input[type="radio"] {
+	 width: 25px;
+	 height:25px;
+ }
+input[type="checkbox"] {
+	width: 25px!important;
+	height: 25px !important;
+}
+.z-div{
+	margin-top: 5px;
+}
+@media (max-width: 768px){
+	.z-diva input{
+		margin-top: 0px;
+	}
+	.z-show{
+		width: 120px;
+		position: absolute;
+		left: 30px;
+		top: 15px;
+		height: auto;
+		z-index: 100000;
+		overflow-y: scroll;
+		display: none;
+		border: 1px solid gray;
+		background: gray;
+		padding: 5px;
+	}
+}
+/*选项卡*/
+div.z_tabs {
+	height: 40px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	/*background: #f5f5f5;*/
+}
+
+.z_tabs > a {
+	display: inline-block;
+	padding: 3px 25px;
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #ccc;
+	margin-right: 5px;
+	border-radius: 10px;
+}
+
+/* a点击时 */
+.z_tabs > a.active {
+	border: 1px solid lightslategrey;
+	color: #333;
+	background-color: #fff;
+	border-color: #lightslategrey;
+	font-weight: bold;
+	padding: 2px 24px;
+	border-radius: 10px;
+}
+
+.tabs > form > div {
+	display: none;
+}
+
+/* a点击时 div */
+.tabs > form > div.active {
+	display: block;
+}
+/*ly*/
+div.show{
+	display: block;
+}
+.z-span{
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+

@@ -1,0 +1,177 @@
+@import url(reset.min.css);
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+.printorder {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.printorder h1 {
+  line-height: 25px;
+}
+.printorder h1 span {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-family: "arial narrow";
+}
+.printorder .printorder-top ul li {
+  line-height: 20px;
+}
+.printorder .printorder-top .print-left {
+  width: 35%;
+  height: auto;
+  background: none;
+  display: inline-block;
+  float: left;
+}
+.printorder .printorder-top .print-center {
+  width: 30%;
+  height: auto;
+  background: none;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.printorder .printorder-top .print-right {
+  width: 35%;
+  height: auto;
+  background: none;
+  display: inline-block;
+  text-align: right;
+  padding-top: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.printorder .main-div {
+  margin-top: 15px;
+}
+.printorder .main-div table {
+  display: table;
+  width: 100%;
+  height: auto;
+  background: none;
+  border: 1px solid #add9c0;
+}
+.printorder .main-div table tbody tr th {
+  border: solid #add9c0;
+  border-width: 0px 1px 1px 0px;
+  line-height: 30px;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+.printorder .main-div table tbody tr th a {
+  color: #335B64;
+}
+.printorder .main-div table tbody tr th a:hover {
+  color: #EB8A3D;
+}
+.printorder .main-div table tbody tr th:nth-child(1) {
+  width: 10%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr th:nth-child(2) {
+  width: 10%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr th:nth-child(3) {
+  width: 30%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr th:nth-child(4) {
+  width: 10%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr th:nth-child(5) {
+  width: 10%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr th:nth-child(6) {
+  width: 10%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr th:nth-child(7) {
+  width: 10%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr th:nth-child(8) {
+  width: 10%;
+  height: auto;
+  background: null;
+}
+.printorder .main-div table tbody tr td {
+  border: solid #add9c0;
+  height: 50px;
+  border-width: 0px 1px 1px 0px;
+  padding: 10px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #FFF;
+  line-height: 22px;
+  text-align: center;
+  font-size: 12px;
+}
+.printorder .print-footer {
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.printorder .print-footer ul {
+  width: 40%;
+  float: left;
+}
+.printorder .print-footer ul li:nth-child(3) {
+  margin-bottom: 20px;
+}
+.printorder .print-footer ul li:last-child {
+  margin-bottom: 20px;
+}
+.printorder .print-footer dl {
+  display: inline-block;
+  float: left;
+}
+.printorder .print-footer dl dt {
+  width: 200px;
+  height: 200px;
+  background: none;
+}
+.printorder .print-footer dl dt img {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.printorder .print-footer dl dd {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}

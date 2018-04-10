@@ -1,0 +1,11 @@
+.addguangbo .row{
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.addchognzhi>.row:not(.file){
+    line-height: 25px;
+}
+.addchognzhi .row{
+    margin-bottom: 10px;
+}

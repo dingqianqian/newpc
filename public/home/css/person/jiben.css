@@ -1,0 +1,581 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 108px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/person/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+
+.er-title p a {
+    color: #333;
+}
+
+.er-title p a:hover {
+    color: #980c3f;
+}
+
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 1095px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+/*右侧内容*/
+.tStepCont {
+    float: right;
+    margin-bottom: 68px;
+    width: 998px;
+    height: 1095px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont > ul {
+    margin: 24px 0;
+    padding-left: 48px;
+    width: 100%;
+}
+
+.tStepCont > ul > li {
+    float: left;
+    margin-right: 48px;
+    border-bottom: 2px solid #fff;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.tStepCont > ul > li.sec {
+    color: #980c3f;
+    border-bottom-color: #980c3f;
+}
+
+.tStepCont .conI > div {
+    display: none;
+}
+
+.tStepCont .conI > div.sec {
+    display: block;
+}
+
+.tStepCont .basic > div {
+    font-size: 0;
+}
+
+.tStepCont .basic > div > span {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont .basic > div > span > i {
+    font-style: normal;
+    color: #980c3f;
+}
+
+.tStepCont .basic > .group1 {
+    padding-left: 86px;
+    height: 48px;
+    line-height: 46px;
+}
+
+.tStepCont .basic > .group1 input {
+    margin-right: 12px;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    width: 274px;
+    height: 46px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tStepCont .basic > .group1 p {
+    display: none;
+    width: 400px;
+    font-size: 12px;
+    color: #eb0303;
+}
+
+.tStepCont .basic > .group1 p i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    background: url("../../images/person/dang.png") no-repeat center center;
+}
+
+.tStepCont .basic > .group1 p span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tStepCont .basic > .group2 {
+    font-size: 16px;
+    margin: 21px 0;
+    padding-left: 103px;
+}
+
+.tStepCont .basic > .group2 input {
+    margin-right: 10px;
+}
+
+.tStepCont .basic > .group2 i:nth-child(3) {
+    margin-right: 32px;
+}
+
+.basic > .group2 i {
+    font-style: normal;
+    font-size: 16px;
+    color: #333;
+}
+
+.basic div.group3 {
+    padding-left: 99px;
+    height: 48px;
+    line-height: 46px;
+    font-size: 16px;
+}
+
+.basic .group3 > span {
+    vertical-align: middle;
+}
+
+.basic .group3 select {
+    vertical-align: middle;
+    margin-right: 4px;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    width: 118px;
+    height: 46px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.basic > p {
+    margin: 29px 0 13px 0;
+    padding-left: 160px;
+    font-size: 16px;
+    color: #333;
+}
+
+.basic .group4 {
+    padding-left: 79px;
+}
+
+.basic .group4 > span {
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.basic > div > p {
+    display: inline-block;
+    width: 750px;
+}
+
+.basic label {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px 14px 0;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
+
+.basic label.dian {
+    background-color: #980c3f;
+    color: #fff;
+}
+
+.basic label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.basic .group5, .basic .group6 {
+    margin-top: 2px;
+    padding-left: 42px;
+    height: 66px;
+}
+
+.basic .group5 > span, .basic .group6 > span {
+    vertical-align: top;
+    width: 110px;
+    height: 48px;
+}
+
+.basic .group5 > p, .basic .group6 > p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.basic > input {
+    display: block;
+    margin: 88px auto 0;
+    border: none;
+    width: 138px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #980c3f;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/*选择头像*/
+.touF > p {
+    position: relative;
+    margin: 21px 0 18px 0;
+    padding-left: 48px;
+}
+
+.touF > p b {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 22px;
+    height: 16px;
+    background: url("../../images/person/xinzeng.png") no-repeat center center;
+}
+
+.touF > p > span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
+}
+
+.touF > p > span:hover {
+    color: #980c3f;
+}
+
+.touF > p > input {
+    position: absolute;
+    left: 48px;
+    top: 0;
+    width: 180px;
+    height: 22px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.touF .outeF {
+    position: relative;
+    padding-left: 48px;
+    height: 17px;
+}
+
+.touF .outeF p {
+    font-size: 12px;
+    color: #eb0303;
+}
+
+.touF .outeF p b {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    background: url("../../images/person/dang.png") no-repeat center center;
+}
+
+.touF .outeF p span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.touF h4 {
+    margin: 4px 0 36px 0;
+    padding-left: 48px;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.touF > img {
+    display: block;
+    margin-left: 244px;
+    width: 173px;
+    height: 173px;
+}
+
+.touF h5 {
+    margin: 36px 0 13px 0;
+    padding-left: 48px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+}
+
+.touF ul {
+    margin-left: -10px;
+    padding-left: 48px;
+    width: 576px;
+}
+
+.touF ul li {
+    float: left;
+    margin: 0 0 10px 10px;
+    width: 86px;
+    height: 86px;
+}
+
+.touF ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.touF > input {
+    display: block;
+    margin: 88px 0 0 244px;
+    border: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 138px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

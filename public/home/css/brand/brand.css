@@ -1,0 +1,318 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 108px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/brand/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+.er-title p a{
+    color:#333;
+}
+.er-title p a:hover{
+    color:#980c3f;
+}
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto 68px;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 1095px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+/*右侧内容*/
+.tStepCont {
+    float: right;
+    padding: 16px;
+    width: 1200px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*      右侧++++++++++        LY      */
+/*  字母查询部分  */
+.searchAhp:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.tStepCont > p {
+    font-size: 16px;
+    color: #333;
+}
+
+.searchAhp {
+    margin-top: 16px;
+}
+
+.searchAhp > li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 16px 16px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #F1F1F1;
+}
+
+/*      点击背景颜色    */
+.searchAhp > li.active {
+    background: #980c3f;
+}
+
+.searchAhp > li.active a {
+    color: #fff;
+}
+
+.searchAhp li a {
+    color: #980c3f;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*  代码片段样式  */
+.searchA:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul.searchA {
+    margin-top: 8px;
+    margin-left: -16px;
+}
+
+.searchA > li {
+    float: left;
+    width: 278px;
+    height: 278px;
+    border: 1px solid #ccc;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.searchA > li > a {
+    display: inline-block;
+    width: 258px;
+    height: 258px;
+    margin: 10px;
+    background: #fff;
+    cursor: pointer;
+    background: url("../../images/category/lazyload.gif") no-repeat center center;
+}
+
+.searchA > li > a > img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    /*background: url("../../images/category/lazyload.gif") no-repeat center center;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

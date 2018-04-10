@@ -1,0 +1,568 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 106px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/browseHistory/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+
+.er-title p a {
+    color: #333;
+}
+
+.er-title p a:hover {
+    color: #980c3f;
+}
+
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 113px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+/*右侧内容*/
+.tStepCont {
+    float: right;
+    margin-bottom: 68px;
+    padding: 24px;
+    width: 998px;
+    min-height: 1131px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont > p {
+    border-radius: 8%;
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tStepCont ul {
+    margin-top: 16px;
+}
+
+.tStepCont ul li {
+    position: relative;
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    padding: 0 16px;
+    width: 950px;
+    height: 270px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont ul li.sec {
+    background: url("../../images/custom/yi_xuan.jpg") 141px 13px no-repeat;
+    background-size: 81px 28px;
+}
+
+.tStepCont ul li h3 {
+    margin: 17px 0 16px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont ul li p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #999;
+}
+
+.tStepCont ul li p span {
+    display: inline-block;
+    /*vertical-align: middle;*/
+    color: #333;
+}
+
+.tStepCont ul li p img {
+    width: 90px;
+    height: 90px;
+}
+
+.tStepCont ul li i {
+    position: absolute;
+    right: 16px;
+    top: 20px;
+}
+
+.tStepCont ul li i img {
+    width: 18px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.tStepCont ul li em {
+    margin-left: 24px;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #980c3f;
+    font-style: normal;
+}
+
+.tStepCont ul li div {
+    position: absolute;
+    right: 75px;
+    bottom: 20px;
+    font-size: 16px;
+    color: #980c3f;
+    cursor: pointer;
+}
+
+.popup-detail {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999999;
+}
+
+.popup-detail .popup-detail-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -435px;
+    margin-top: -303px;
+    border: 8px solid #999;
+    width: 854px;
+    height: 590px;
+    background-color: #fff;
+    font-size: 0;
+}
+
+.popup-detail .popup-detail-inner > img {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.popup-detail .popup-detail-inner form > p {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    background-color: #eee;
+}
+
+.popup-detail .popup-detail-inner form .oDiv {
+    margin-top: 20px;
+    height: 90px;
+}
+
+.popup-detail .popup-detail-inner form .oDiv img {
+    display: block;
+    margin-left: 238px;
+    width: 90px;
+    height: 90px;
+    background: url("../../images/custom/shangchuan.png") center center no-repeat;
+}
+
+.popup-detail .popup-detail-inner form .btn {
+    margin-top: 46px;
+    text-align: center;
+}
+
+.popup-detail .popup-detail-inner form .btn button,
+.popup-detail .popup-detail-inner form .btn em {
+    display: inline-block;
+    font-style: normal;
+    width: 174px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.popup-detail .popup-detail-inner form .btn button {
+    border: none;
+    text-decoration: none;
+    margin-right: 72px;
+    background-color: #980c3f;
+    color: #fff;
+}
+
+.popup-detail .popup-detail-inner form .btn em {
+    border: 1px solid #ccc;
+    background-color: #eee;
+    color: #333;
+}
+
+.popup-detail .popup-detail-inner form label {
+    display: block;
+    margin-top: 20px;
+    padding-left: 102px;
+	font-size:0;
+}
+
+.popup-detail .popup-detail-inner form label span {
+    display: inline-block;
+    margin-right: 24px;
+	width:117px;
+    font-size: 24px;
+    color: #333;
+    vertical-align: middle;
+}
+
+.popup-detail .popup-detail-inner form label span.twoSapn {
+    vertical-align: top;
+}
+
+.popup-detail .popup-detail-inner form label span i {
+    font-style: normal;
+    color: #980c3f;
+}
+
+.popup-detail .popup-detail-inner form label input,
+.popup-detail .popup-detail-inner form label textarea {
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    width: 380px;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.popup-detail .popup-detail-inner form label input.one,
+.popup-detail .popup-detail-inner form label textarea.one,
+.popup-detail .popup-detail-inner form label input.thr,
+.popup-detail .popup-detail-inner form label input.thrr,
+.popup-detail .popup-detail-inner form label textarea.thr,
+.popup-detail .popup-detail-inner form label input.four,
+.popup-detail .popup-detail-inner form label textarea.four {
+    height: 48px;
+    line-height: 48px;
+}
+
+.popup-detail .popup-detail-inner form label b{
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.popup-detail .popup-detail-inner form label input.thr{
+	width: 100px;
+}
+
+.popup-detail .popup-detail-inner form label input.thrr{
+	width: 260px;
+}
+
+.popup-detail .popup-detail-inner form label input.two,
+.popup-detail .popup-detail-inner form label textarea.two {
+    height: 74px;
+    line-height: 30px;
+}
+
+.popup-detail .popup-detail-inner form label input.four,
+.popup-detail .popup-detail-inner form label textarea.four {
+    /*margin-left: 3px;*/
+    vertical-align: middle;
+}
+
+.popup-detail .popup-detail-inner form label .onSpan {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    width: 100px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #980c3f;
+}
+
+.popup-detail .popup-detail-inner form label .onSpan input {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+/*删除定制信息遮罩层*/
+.delHide {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999999;
+}
+
+.delHide .zhaozhao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -330px;
+    margin-top: -174px;
+    border: 8px solid #999;
+    width: 660px;
+    height: 349px;
+    background-color: #fff;
+}
+
+.delHide .zhaozhao .btiao {
+    margin: 0;
+    padding-left: 24px;
+    width: 636px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    background-color: #eee;
+}
+
+.delHide .zhaozhao .gan {
+    margin: 56px 0;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.delHide .zhaozhao .gan img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 82px;
+    height: 82px;
+}
+
+.delHide .zhaozhao .gan span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delHide .zhaozhao a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.delHide .zhaozhao .laL {
+    margin: 0 30px 0 227px;
+}

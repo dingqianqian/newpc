@@ -1,0 +1,176 @@
+.goB {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 80px;
+    background-color: #eee;
+}
+
+.goB .find-con {
+    margin: 0 auto;
+    width: 1200px;
+    line-height: 80px;
+}
+
+.goB .find-con .shou>img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 194px;
+    height: 47px;
+}
+
+.goB .find-con>span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+.goB .find-con .goS {
+    float:right;
+    padding-top: 27px;
+}
+.goB .find-con .goS>img{
+    margin-left: 6px;
+    width: 6px;
+    height: 10px;
+}
+.goB .find-con .goS>span{
+    font-size: 16px;
+    color: #666;
+}
+.dange {
+    margin: 68px auto;
+    width: 1200px;
+}
+
+.dange img {
+    width: 24px;
+    height: 21px;
+}
+
+.dange span {
+    font-size: 18px;
+    color: #333;
+}
+
+.forgot-Jin {
+    margin: 0 auto 68px;
+    width: 754px;
+    height: 59px;
+}
+
+.forgot-Jin img {
+    width: 100%;
+    height: 100%;
+}
+
+.for-f {
+    position: relative;
+    margin: 0 auto;
+    width: 358px;
+}
+
+.for-f label {
+    position: relative;
+    display: block;
+    margin-bottom: 34px;
+    width: 358px;
+    height: 54px;
+}
+
+.for-f label input {
+    float: left;
+    border: 1px solid #ccc;
+    padding-left: 64px;
+    width: 292px;
+    height: 100%;
+    font-size: 16px;
+    color: #333;
+}
+
+.for-f label span {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 54px;
+    height: 54px;
+    background-color: #eee;
+}
+
+.for-f label span img {
+    display: inline-block;
+    margin: 18px 0 0 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.for-f label:nth-child(3) #for-yan {
+    width: 192px;
+}
+
+.for-f label:nth-child(3) .for-huo {
+    margin-left: 2px;
+    padding: 0;
+    border: none;
+    width: 98px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: #980c3f;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.for-f > input {
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 8px;
+    width: 360px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: #980c3f;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*提示语样式*/
+.for-f > p {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding-left: 10px;
+    width: 348px;
+}
+
+.for-f > p > img {
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+
+.for-f > p > span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #999;
+}
+
+.for-f .for-yt {
+    top: 148px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

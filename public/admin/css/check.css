@@ -1,0 +1,296 @@
+@import url(reset.min.css);
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+.check {
+  height: auto;
+  background: #DDEEF2;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check h1 {
+  background: #F4FAFB;
+  border: 1px solid #BBDDE5;
+  font-size: 14px;
+  padding: 7px 10px;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check h1 .action-spana {
+  float: right;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check h1 .action-spana a {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  padding: 2px 5px 2px 23px;
+  border: 1px solid #278296;
+  border-right: 2px solid #278296;
+  border-bottom: 2px solid #278296;
+  background: #DDEEF2;
+  background: url(../img/icon_add.gif) no-repeat 3px center;
+}
+.check h1 .action-spana a:hover {
+  border: 1px solid #5FA6B6;
+  border-right: 2px solid #5FA6B6;
+  border-bottom: 2px solid #5FA6B6;
+  background: #ffffff url(../img/icon_add.gif) no-repeat 3px center;
+  color: #666;
+  text-decoration: none;
+}
+.check h1 .action-spanb a {
+  color: #333;
+}
+.check h1 .action-spanc a {
+  color: #9CACAF;
+}
+.check .check-list {
+  width: 100%;
+  background: #EEF8F9;
+  border: 1px solid #BBDDE5;
+}
+.check .check-list table {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: table;
+  background: #FFF;
+}
+.check .check-list table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+}
+.check .check-list table tbody tr:first-child {
+  height: 30px;
+  cursor: pointer;
+  line-height: 30px;
+  background: url(../img/button_bg.gif) repeat-x;
+  background: #FFFFFF;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin-left: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check .check-list table tbody tr:first-child .button {
+  cursor: pointer;
+  width: auto;
+  height: 20px;
+  background: null;
+  background: url(../img/button_bg.gif) repeat-x;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin-left: 5px;
+  border: 1px solid #2D5082;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check .check-list table tbody tr th {
+  border: solid #add9c0;
+  border-width: 0px 1px 1px 0px;
+  line-height: 24px;
+  background: #bbdde5 url(../img/th_bg.gif) repeat-x;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+.check .check-list table tbody tr th a {
+  color: #335B64;
+}
+.check .check-list table tbody tr th a:hover {
+  color: #EB8A3D;
+}
+.check .check-list table tbody tr th .special {
+  margin: 0 5px;
+  padding: 1px 5px;
+  border: 1px solid #91C4D0;
+  border-right: 2px solid #278296;
+  border-bottom: 2px solid #278296;
+  background: #DDEEF2;
+  text-decoration: none;
+  font-weight: 400;
+}
+.check .check-list table tbody tr td {
+  border: solid #add9c0;
+  width: 30%;
+  height: 30px;
+  background: none;
+  border-width: 0px 1px 1px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 22px;
+  text-align: center;
+  font-size: 12px;
+}
+.check .check-list table tbody tr td a {
+  text-decoration: underline;
+  color: #335B64;
+}
+.check .check-list table tbody tr td a:hover {
+  color: #EB8A3D;
+}
+.check .check-list table tbody tr td .check {
+  margin-right: 5px;
+}
+.check .check-list table tbody tr td .special {
+  margin: 0 5px;
+  padding: 1px 5px;
+  border: 1px solid #91C4D0;
+  border-right: 2px solid #278296;
+  border-bottom: 2px solid #278296;
+  background: #DDEEF2;
+  text-decoration: none;
+  font-weight: 400;
+}
+.check .check-list table tbody tr .rough {
+  width: 20%;
+  height: 30px;
+  background: none;
+  font-weight: bold;
+  text-align: right;
+}
+.check .check-list .shop-new {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: table;
+  background: #FFF;
+}
+.check .check-list .shop-new tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+}
+.check .check-list .shop-new tbody tr:first-child {
+  height: 30px;
+  cursor: pointer;
+  line-height: 30px;
+  background: url(../img/button_bg.gif) repeat-x;
+  background: #FFFFFF;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin-left: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check .check-list .shop-new tbody tr th {
+  border: solid #add9c0;
+  border-width: 0px 1px 1px 0px;
+  line-height: 24px;
+  background: #bbdde5 url(../img/th_bg.gif) repeat-x;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+.check .check-list .shop-new tbody tr td:nth-child(3) {
+  width: 10%;
+}
+.check .check-list .shop-new tbody tr td:nth-child(4) {
+  width: 10%;
+}
+.check .check-list .shop-new tbody tr:last-child td:nth-child(1) {
+  text-align: right;
+}
+.check .check-list .shop-new tbody tr:last-child td:nth-child(2) {
+  text-align: center;
+}
+.check .check-list .shop-new tbody .new-top th {
+  background: #fff;
+  font-weight: bold;
+}
+.check .check-list .shop-new tbody .new-top th:nth-child(3) {
+  width: 9.6%;
+}
+.check .check-list .shop-new tbody .new-top th:nth-child(4) {
+  width: 7.9%;
+}
+.check .check-list .operate {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: table;
+  background: #FFF;
+}
+.check .check-list .operate tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+}
+.check .check-list .operate tbody tr:first-child {
+  height: 30px;
+  cursor: pointer;
+  line-height: 30px;
+  background: url(../img/button_bg.gif) repeat-x;
+  background: #FFFFFF;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin-left: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check .check-list .operate tbody tr .rough {
+  width: 10%;
+}
+.check .check-list .operate tbody tr textarea {
+  width: 100%;
+  height: 56px;
+  background: none;
+  border: none;
+}
+.check .check-list .operate tbody tr .operate-button {
+  text-align: left;
+}
+.check .check-list .operate tbody tr .operate-button .button {
+  cursor: pointer;
+  width: auto;
+  height: 20px;
+  background: null;
+  background: url(../img/button_bg.gif) repeat-x;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin-left: 5px;
+  border: 1px solid #2D5082;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.check .footer {
+  background: #F4FaFb;
+  border: 1px solid #BBDDE5;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #9CACAF;
+  margin: 10px 0;
+  text-align: center;
+}

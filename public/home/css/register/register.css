@@ -1,0 +1,299 @@
+.sYe {
+    margin: 0 auto;
+    padding-left: 140px;
+    width: 1060px;
+    height: 96px;
+    line-height: 96px;
+}
+
+.sYe a {
+    display: inline-block;
+    margin-right: 24px;
+    width: 240px;
+    height: 57px;
+    vertical-align: middle;
+}
+
+ a:hover {
+    text-decoration: none;
+}
+
+.sYe a img {
+    width: 100%;
+    height: 100%;
+    vertical-align: initial;
+}
+
+.sYe span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #333;
+}
+
+#regist {
+    position: relative;
+    margin: 36px 190px 100px 222px;
+    width: 466px;
+}
+
+#regist .group {
+    width: 100%;
+}
+
+.group label {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    width: 90px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+}
+
+.group input, .group select {
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    padding-left: 6px;
+    width: 352px;
+    height: 54px;
+    font-size: 14px;
+}
+
+.group select {
+    width: 352px;
+    height: 56px;
+}
+
+/*企业地址*/
+#cacon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#cacon .form-group {
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 0;
+    width: 115px;
+    height: 46px;
+    color: #333;
+}
+
+#cacon .form-group .form-control {
+    margin-left: 0;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#cacon .form-group label {
+    width: 0;
+    height: 0;
+}
+
+#tail {
+    display: block;
+    margin: 10px 0 24px 100px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    width: 352px;
+    height: 58px;
+    font-size: 14px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#regist > p {
+    margin: 6px 0 12px 100px;
+    font-size: 12px;
+    color: #999;
+}
+
+#regist > p img {
+    margin: 2px 6px 0;
+    width: 12px;
+    height: 12px;
+    vertical-align: text-top;
+}
+
+#regist > p > span {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 334px;
+    line-height: 16px;
+}
+
+/*提示框*/
+#regist #reTi {
+    position: absolute;
+    left: 100px;
+    top: -35px;
+    /*display: none;*/
+    margin: 0 auto 6px;
+    width: 358px;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background-color: rgba(178, 81, 116, .3);
+    border: .01rem solid rgba(152, 12, 63, .3);
+}
+
+#regist #reTi img {
+    margin: 0 7px;
+    vertical-align: middle;
+}
+
+#regist #reTi span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #eb0303;
+    width: auto;
+    line-height: 28px;
+}
+
+/*安全强度提示*/
+.for-hd {
+    display: none;
+    position: relative;
+    margin: 0 0 12px 0;
+    width: 460px;
+    height: 22px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.for-hd li {
+    display: none;
+    position: absolute;
+    left: 106px;
+    top: 0;
+}
+
+.for-hd li.sl {
+    display: block;
+}
+
+.for-hd li img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.for-hd li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #999;
+}
+
+#wu {
+    width: 248px;
+}
+
+#regist .group .for-huo {
+    margin-left: 4px;
+    padding: 0;
+    border: none;
+    width: 98px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: #980c3f;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#si, #wu, #liu {
+    margin-bottom: 24px;
+}
+
+.mo {
+    margin: 12px 0 32px 0;
+    padding-left: 100px;
+    width: 366px;
+}
+
+.regCon {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mo > p {
+    display: inline-block;
+    margin-left: 7px;
+    vertical-align: top;
+}
+
+.mo > input {
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.mo > p > span {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.mo span a {
+    color: #980c3f;
+}
+
+.mo span a:hover {
+    text-decoration: underline;
+}
+
+.mo span:nth-child(1) a {
+    color: #125bce;
+}
+
+#regiZhu {
+    margin-left: 100px;
+    border: none;
+    background-color: #980c3f;
+    width: 360px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#regTu {
+    position: absolute;
+    top: 165px;
+    left: 620px;
+    width: 256px;
+    height: 372px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.form-group{
+	margin-bottom: 10px;
+
+}
+.panel{
+	margin-bottom:0;
+}
+.content-wrapper{
+	padding-bottom: 15px;
+}
+
+#limitsDengji{
+	margin-top: 15px;
+}
+
+#tabs0,#tabs1,#tabs2{
+	display: none;
+}
+#tabs0.tabactive,#tabs1.tabactive,#tabs2.tabactive {
+	display: block;
+}
+/*顯示錯誤*/
+#ly_red{
+	display: none;
+}
+#ly_red.ly_red_show{
+	display: block;
+}

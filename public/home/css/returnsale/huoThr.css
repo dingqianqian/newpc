@@ -1,0 +1,377 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 108px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/returnsale/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+
+.er-title p a {
+    color: #333;
+}
+
+.er-title p a:hover {
+    color: #980c3f;
+}
+
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 1095px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+/*右侧内容*/
+.tStepCont {
+    float: right;
+    margin-bottom: 68px;
+    padding: 21px 24px 24px;
+    width: 998px;
+    height: 1095px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont h3 {
+    font-weight: normal;
+    font-size: 18px;
+    color: #333;
+}
+
+.tStepCont > img {
+    display: block;
+    margin: 21px 0 24px 0;
+    width: 950px;
+    height: 34px;
+}
+
+.tStepCont .top {
+    padding: 0 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 950px;
+    height: 104px;
+    background-color: #eee;
+}
+
+.tStepCont .top p {
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont .top p:nth-child(1) {
+    border-bottom: 1px solid #ccc;
+    height: 52px;
+    line-height: 52px;
+}
+
+.tStepCont .top p:nth-child(2) {
+    height: 51px;
+    line-height: 51px;
+}
+
+.tStepCont .top i, .tStepCont .top em {
+    font-style: normal;
+}
+
+.tStepCont h4 {
+    margin: 21px 0 13px 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont .mid {
+    border: 1px solid #ccc;
+    width: 950px;
+    height: 107px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont .mid p {
+    font-size: 0;
+    color: #333;
+}
+
+.tStepCont .mid p:nth-child(1) {
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+.tStepCont .mid p:nth-child(2) {
+    height: 57px;
+    line-height: 57px;
+}
+
+.tStepCont .mid p span {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont .mid p span:nth-child(1) {
+    width: 316px;
+}
+
+.tStepCont .mid p span:nth-child(2) {
+    width: 316px;
+}
+
+.tStepCont .mid p span:nth-child(3) {
+    width: 316px;
+}
+
+.tStepCont > a {
+    display: block;
+    margin: 88px auto 0;
+    border: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 172px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    background-color: #980c3f;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

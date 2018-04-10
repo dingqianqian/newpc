@@ -1,0 +1,45 @@
+
+.labelCon label{
+	margin-left: 9%;
+	line-height:25px;
+	width: 125px;
+	text-align: left;
+}
+.labelCon>div{
+	margin-left:-9%;
+}
+input[type=checkbox], input[type=radio]{
+	margin:0 5px 0 0;
+	vertical-align: middle;
+}
+.checkbox, .radio{
+	margin:0;
+}
+.row{
+	border-top:1px solid #ccc;
+}
+.col-xs-4,.col-md-3,.ab,.ainput,.labelCon,.checkAll{
+	padding:1%;
+	border-left:1px solid #ddd;
+}
+.form>div>.row span{
+	display: inline-block;
+	color: #f00;
+	font-size: 16px;
+	padding-top: 10px;
+}
+#ly_form>div:nth-last-of-type(2){
+	border-bottom:1px solid #ccc;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]{
+	position: relative;
+}
+
+@media (max-width: 988px) {
+	.labelCon {
+		border-top:1px solid #ccc;
+	}
+	.form>.row{
+		border-top-width: 2px;
+	}
+}

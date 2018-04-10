@@ -1,0 +1,191 @@
+.logLine{
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+.title {
+    margin: 0 auto;
+    width: 1200px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.title > a > img {
+    margin-right: 30px;
+    width: 194px;
+    height: 47px;
+    vertical-align: middle;
+}
+
+.title > span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #333;
+}
+
+.work {
+    position: relative;
+    margin: 0 auto 42px;
+    background-color: #85258f;
+}
+
+.work > img {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 546px;
+}
+
+.work form {
+    position: absolute;
+    right: 96px;
+    top: 70px;
+    width: 398px;
+    height: 414px;
+    background-color: #fff;
+}
+
+.work form .tit {
+    border-bottom: .01rem solid #ccc;
+    width: 100%;
+    height: 69px;
+    line-height: 69px;
+    font-size: 18px;
+    color: #980c3f;
+    text-align: center;
+}
+
+.work form label {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 336px;
+    height: 42px;
+}
+
+.work form label input {
+    border: 1px solid #ccc;
+    padding-left: 55px;
+    font-size: 14px;
+    color: #333;
+    width: 280px;
+    height: 42px;
+}
+
+.work form label > span {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 44px;
+    height: 42px;
+    background-color: #eee;
+}
+
+.work form label > i {
+    display: none;
+    position: absolute;
+    right: 8px;
+    top: 16px;
+    width: 11px;
+    height: 11px;
+    background: url("../../images/login/close.png") no-repeat;
+    cursor: pointer;
+}
+
+.work form label > span > img {
+    display: inline-block;
+    margin: 12px 0 0 13px;
+    width: 18px;
+    height: 18px;
+}
+
+.work form label:nth-child(3) {
+    margin: 48px auto 20px;
+}
+
+.work form label:nth-child(4) {
+    margin-bottom: 26px;
+}
+
+.work form > a {
+    float: right;
+    margin-right: 30px;
+    font-size: 16px;
+    color: #666;
+}
+
+.work form > input {
+    display: block;
+    margin: 66px auto 0;
+    border: none;
+    width: 338px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #980c3f;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.work .weixin {
+    margin: 34px auto 0;
+    width: 338px;
+}
+
+.work .weixin a img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 24px;
+    height: 20px;
+}
+
+.work .weixin a span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
+}
+
+.work .weixin a:nth-child(2) {
+    float: right;
+}
+
+/*提示语*/
+#tishi {
+    display: none;
+    position: absolute;
+    top: 78px;
+    left: 30px;
+    margin: 0 auto;
+    border: 1px solid rgba(152, 12, 63, .3);
+    width: 336px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(178, 81, 116, .3);
+    font-size: 0;
+}
+
+#tishi > img {
+    margin: 0 7px;
+    vertical-align: middle;
+}
+
+#tishi > span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #eb0303;
+}
+
+
+
+
+
+
+
+
+
+
+
+

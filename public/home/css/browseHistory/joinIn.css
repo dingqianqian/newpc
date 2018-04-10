@@ -1,0 +1,571 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 106px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/browseHistory/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+
+.er-title p a {
+    color: #333;
+}
+
+.er-title p a:hover {
+    color: #980c3f;
+}
+
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 1131px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+/*右侧内容*/
+.tStepCont {
+    position: relative;
+    float: right;
+    margin-bottom: 226px;
+    width: 998px;
+    min-height: 1131px;
+}
+
+.footTile {
+    padding: 13px 0 0 16px;
+    width: 982px;
+    height: 109px;
+    background-color: #fff;
+}
+
+.footTile > p {
+    width: 100%;
+    font-size: 18px;
+    color: #333;
+}
+
+.footTile ul {
+    margin-top: 21px;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+}
+
+.footTile ul li {
+    float: left;
+    margin-right: 24px;
+    width: 154px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footTile ul li.sec {
+    background-color: #980c3f;
+    color: #fff;
+}
+
+.tStepCont > .footCont > div > p {
+    padding: 37px 0 21px 0;
+    padding-left: 16px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footCont .outUl {
+    float: right;
+    width: 890px;
+    /*min-height: 894px;*/
+}
+
+.footCont .outUl > li {
+    position: relative;
+    float: left;
+    /*border-left: 2px solid #ccc;*/
+    /*height: 326px;*/
+}
+
+.footCont .outUl > li > img {
+    position: absolute;
+    left: -5px;
+    top: -1px;
+    width: 9px;
+    height: 12px;
+    z-index: 99999999;
+}
+
+/*两条线*/
+.footCont > div {
+    display: none;
+    position: relative;
+}
+
+.footCont > div.sec {
+    display: block;
+}
+
+.footCont .footHui {
+    position: absolute;
+    left: 106px;
+    top: 79px;
+    width: 2px;
+    background-color: #ccc;
+    z-index: 88888;
+}
+
+.footCont .footHong {
+    position: absolute;
+    left: 106px;
+    top: 79px;
+    width: 2px;
+    background-color: #980c3f;
+    z-index: 88889;
+}
+
+.footCont .footHui > img {
+    position: absolute;
+    bottom: -158px;
+    left: -93px;
+    width: 186px;
+    height: 158px;
+}
+
+.footCont .outUl .footDel {
+    display: inline-block;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.footCont .outUl .footDel img {
+    margin-right: 10px;
+    width: 13px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.footCont .outUl .footDel span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #666;
+}
+
+.footCont .outUl .bjBen {
+    position: absolute;
+    top: 0;
+    left: -92px;
+}
+
+.footCont .outUl .bjBen > span {
+    position: relative;
+    display: block;
+    width: 72px;
+    height: 63px;
+    /*line-height: 63px;*/
+    background: url("../../images/browseHistory/book.png") no-repeat center center;
+    text-align: center;
+}
+
+.footCont .outUl .bjBen > span i, .footCont .outUl .bjBen > span em {
+    font-style: normal;
+    position: absolute;
+    top: 20px;
+
+}
+
+.footCont .outUl .bjBen > span i {
+    position: absolute;
+    left: 0;
+    top: 22px;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    color: #999;
+}
+
+.footCont .outUl .bjBen > span em {
+    position: absolute;
+    left: 0;
+    top: 37px;
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #666;
+}
+
+/*第二层ul的宽高*/
+.footCont .outUl .inUl {
+    margin-top: 10px;
+    width: 890px;
+    /*height: 270px;*/
+}
+
+.footCont .outUl .inUl li {
+    position: relative;
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 27px;
+    /*padding: 16px 16px 0;*/
+    width: 206px;
+    height: 270px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 0;
+}
+
+.footCont .outUl .inUl li .inUl-zheZhao {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 206px;
+    height: 270px;
+    line-height: 270px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    background-color: rgba(255, 255, 255, .9);
+    z-index: 999999999;
+    cursor: initial;
+}
+
+.footCont .outUl .inUl li > a {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.footCont .outUl .inUl li > img {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    cursor: pointer;
+}
+
+.footCont .outUl .inUl li > a > span {
+    display: inline-block;
+    width: 174px;
+    height: 174px;
+    background: url("../../images/category/lazyload.gif") no-repeat center center;
+}
+
+.footCont .outUl .inUl li > a > span > img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    /*background: url("../../images/category/lazyload.gif") no-repeat center center;*/
+}
+
+.footCont .outUl .inUl li p {
+    /*width: 174px;*/
+    text-align: center;
+}
+
+.footCont .outUl .inUl li .footOne {
+    margin: 9px 0 3px 0;
+    font-size: 14px;
+    color: #980c3f;
+}
+
+.footCont .outUl .inUl li .footTwo {
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.footCont .outUl .inUl li .footTwo i {
+    font-style: normal;
+}
+
+.footCont .outUl .inUl li .footThr {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.footCont .outUl .inUl li .footThr i {
+    font-style: normal;
+}
+
+/*删除商品遮罩层*/
+.delHide {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 999999999;
+}
+
+.delHide .zhaozhao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -330px;
+    margin-top: -174px;
+    border: 8px solid #999;
+    width: 660px;
+    height: 349px;
+    background-color: #fff;
+}
+
+.delHide .zhaozhao .btiao {
+    margin: 0;
+    padding-left: 24px;
+    width: 636px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    background-color: #eee;
+}
+
+.delHide .zhaozhao .gan {
+    margin: 56px 0;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.delHide .zhaozhao .gan img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 82px;
+    height: 82px;
+}
+
+.delHide .zhaozhao .gan span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delHide .zhaozhao a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.delHide .zhaozhao .laL {
+    margin: 0 30px 0 227px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

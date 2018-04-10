@@ -1,0 +1,48 @@
+.btn-default{
+	background: #fff;
+}
+.btn-sm{
+	padding:5px 10px;
+}
+/*
+div.searchable-select-holder{
+	padding-left: 5px;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}*/
+.searchable-select-dropdown{
+	z-index:99;
+}
+.searchable-select-dropdown>.searchable-select-input{
+	height: 30px;
+}
+.searchable-select-item{
+	height: 35px;
+	line-height: 25px;
+	-webkit-transition: all 0s ease 0s;
+	-moz-transition: all 0s ease 0s;
+	-ms-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
+}
+#xiugaiInput .form-group{
+	margin-right:1%;
+}
+.search{
+	margin-bottom:1.5%;
+}
+@media screen and (max-width: 767px) {
+	.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	.form-control:not(select){
+		width: 100%;
+	}
+}
+.table-bordered>tbody>tr>td{
+	vertical-align: middle;
+}
+.table-responsive table tbody tr:last-child{
+	border-bottom:1px solid #f4f4f4;
+}

@@ -1,0 +1,61 @@
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 153px;
+}
+
+.dl_Commodity_panel {
+    margin-bottom: 15px;
+    /*font-size: 14px;
+    font-weight: bold;
+    color: #333333;*/
+}
+
+.dl_Commodity_panel .haspadding .form-group {
+    margin-right: 1%;
+}
+
+.dl_Commodity_panel .haspadding .form-group #dl_Goods_name {
+    height: 34px;
+}
+
+.dl_Commodity_panel .haspadding .form-group .row {
+    margin: 0;
+}
+
+.dl_Commodity_panel .haspadding .form-group .row .col-md-12 {
+    padding: 0;
+}
+
+.dl_Commodity_panel .haspadding .form-group .row .col-md-12 button[type="button"] {
+    background-color: #ffffff;
+}
+
+.btn-group.bootstrap-select.col-md-12 {
+    padding: 0px;
+    width: 100%;
+}
+
+.bootstrap-select > .dropdown-toggle {
+    height: 30px;
+    font-size: 12px;
+}
+.btn-sm{
+    padding: 5px 6px;
+}
+/*李影*/
+/*#ly-fluid{
+    border:1px solid #ddd;
+    padding-right:0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+@media (max-width: 768px) {
+    #ly-fluid{
+        padding-right: 15px;
+    }
+}*/
+
+

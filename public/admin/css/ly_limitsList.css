@@ -1,0 +1,87 @@
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+	padding-right:0;
+}
+.col-xs-2{
+	width:14.2%;
+}
+.content .panel-default:not(.top) .panel-title>li:nth-child(4){
+	width:14.2%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/*.panel{
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}*/
+.panel-group .panel{
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+.panel-title{
+	font-size: 12px;
+	line-height: 30px;
+}
+.content .panel-default:not(.top) .panel-heading li:first-child{
+	padding-left: 2%;
+}
+.content .top .panel-heading .panel-title>li{
+	border-left:1px solid #fff;
+}
+.panel-heading,.content .panel-body:first-child{
+	padding:0 15px;
+}
+
+.content .panel-body>.panel-title+.panel-title{
+	border-top:1px solid #F5F5F5;
+}
+.content .panel-body>.panel-title>li+li{
+	border-left:1px solid #F5F5F5;
+}
+.content .panel-body>.panel-title>li:first-child{
+	padding-left: 3%;
+}
+.panel-group .panel+.panel{
+	margin-top:0;
+}
+.panel-group .panel{
+	border-bottom:0;
+}
+.content .panel-default:not(.top) .panel-title{
+	background-color:#fff;
+}
+.content .panel-default:not(.top) .panel-title:hover{
+	background: #ddd;
+}
+.content .panel-default:not(.top) .panel-title>li{
+	border-left:1px solid #f5f5f5;
+}
+.tabInput>span.need{
+	display: inline-block;
+	padding:0 5px;
+	line-height:14px;
+}
+.tabInput>.need:hover{
+	background: #f5f5f5;
+}
+.tabInput>.shuru{
+	width: 30px;
+	height: 22px;
+}
+
+@media (max-width: 592px) {
+
+	#accordion>.panel-default{
+		width:592px;
+	}
+	#accordion{
+		overflow-x: scroll;
+	}
+
+	#accordion .panel-default:last-child{
+		margin-bottom: 15px;
+	}
+}
+/*调整*/

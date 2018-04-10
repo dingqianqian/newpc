@@ -1,0 +1,97 @@
+.demo a {
+	color: #333;
+	text-decoration: none;
+}
+
+.demo a img {
+	border: solid 1px #ddd;
+	margin: 0 5px;
+}
+/* previewShowWindow */
+
+.previewShowWindow {
+	position: absolute;
+	border: 1px solid #dadade;
+	background: #95959d;
+	padding: 5px;
+	display: none;
+	color: #fff;
+	text-align: center;
+	z-index: 999;
+}
+.previewShowWindow img{
+	width: 450px;
+	height: auto;
+}
+@media (max-width: 768px){
+	.previewShowWindow img{
+		width: 150px;
+		height: 80px;
+	}
+}
+@media (max-width: 1700px){
+	.z_div{
+		width: 200px !important;
+		overflow: hidden!important;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+	}
+}
+.z-select{
+	width: 32% !important;
+}
+.btn-default{
+	background: #FFFFFF !important;
+}
+@media screen and (max-width: 1920px) {
+	.z-select {
+		width: 32.5% !important;
+	}
+}
+@media screen and (max-width: 1366px) {
+	.z-select {
+		width: 32% !important;
+	}
+}
+@media screen and (max-width: 885px) {
+	.z-select {
+		width: 31% !important;
+	}
+}
+@media screen and (max-width: 752px) {
+	.z-select {
+		width: 48% !important;
+	}
+}
+@media (max-width:414px ) {
+	.z-select{
+		width: 46% !important;
+	}
+}
+.z-editor{
+	margin: 0 !important;
+}
+#xiugaiInput .form-group {
+	margin-right: 1%;
+}
+.btn .dropdown-toggle .btn-default{
+	height: 30px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+	font-size: 12px;
+}
+.z_col{
+	width: 200px !important;
+	overflow: hidden!important;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.z_last,.z_type,.z_time{
+	width: 100px !important;
+	overflow: hidden!important;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.z_first{
+	width: 50px;
+}

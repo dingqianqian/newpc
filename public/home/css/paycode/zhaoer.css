@@ -1,0 +1,345 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 108px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/paycode/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+
+.er-title p a {
+    color: #333;
+}
+
+.er-title p a:hover {
+    color: #980c3f;
+}
+
+/*进度条*/
+.zhaoJin {
+    margin: 68px auto 88px;
+    width: 754px;
+    height: 59px;
+}
+
+.zhaoJin img {
+    width: 100%;
+    height: 100%;
+}
+
+/*表单提交*/
+.erFor {
+    position: relative;
+    margin: 0 auto;
+    width: 415px;
+}
+
+.erFor .erGroup {
+    margin-bottom: 38px;
+    width: 100%;
+}
+
+.erFor .erGroup label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+}
+
+.erFor .erGroup input {
+    margin-left: 7px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    width: 272px;
+    height: 34px;
+    letter-spacing: 8px;
+}
+
+.erFor > input {
+    display: block;
+    margin: 108px auto 0;
+    border: none;
+    border-radius: 8px;
+    width: 280px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+.erFor > p {
+    display: none;
+    position: absolute;
+    margin: 6px 0 0 126px;
+}
+
+.erFor > p img {
+    margin: 0 7px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+
+.erFor > p span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #999;
+}
+
+.erFor .erP {
+    top: 36px;
+}
+
+.erFor .erB {
+    top: 108px;
+}
+
+#dibu {
+    margin: 130px auto 68px;
+    padding-left: 16px;
+    padding-top: 16px;
+    width: 934px;
+    height: 82px;
+    background-color: #f2f2f2;
+}
+
+#dibu h5 {
+    font-size: 18px;
+    color: #980c3f;
+}
+
+#dibu p {
+    font-size: 16px;
+    color: #333;
+    line-height: 34px;
+}
+
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto 68px;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 1095px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+.tStepCon {
+    float: right;
+    width: 998px;
+    height: 1095px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

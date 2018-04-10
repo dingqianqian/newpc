@@ -1,0 +1,41 @@
+
+.fenpeiCon{
+	background: #fff;
+	border:1px solid #BBDDE5;
+	padding:15px 0;
+}
+.tdfenpeiRole li{
+	display: inline-block;
+	width: 115px;
+	line-height:25px;
+	text-align: center;
+}
+.tdfenpeiRole li input{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.tdfenpeiRole li span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+.fenpeiRoleBtn{
+	margin-top: 10px;
+	text-align: center;
+	padding-top:10px;
+	border-top:2px solid #EEF8F9;
+}
+.fenpeiRoleBtn input{
+	vertical-align: middle;
+}
+.fenpeiRoleBtn button{
+	padding:0 10px;
+	margin-left: 10px;
+}

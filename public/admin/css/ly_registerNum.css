@@ -1,0 +1,41 @@
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 140px;
+}
+
+.form-inline .form-group{
+    font-size: 12px;
+    font-weight:normal;
+}
+.btn-group>.btn:first-child{
+    background: #fff;
+}
+.btn{
+    padding:5px 8px 4px 8px;
+}
+.form-inline .form-group:last-of-type{
+    margin:auto 1%;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    font-size: 12px;
+}
+.c{
+    margin-top: 15px;
+}
+#xiugaiInput>form>button:last-of-type{
+    margin-left:1%;
+}
+@media (max-width: 768px) {
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+        width:100%;
+    }
+    .form-inline .form-group:last-of-type{
+        margin:0 0 1% 0;
+    }
+    #xiugaiInput>form>button{
+        margin-bottom:1%;
+    }
+    #xiugaiInput>form>button:last-of-type{
+        margin-left:0;
+    }
+}

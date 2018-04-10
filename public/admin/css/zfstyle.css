@@ -1,0 +1,96 @@
+.z_a_color{
+	color: #333;
+}
+.z_footer{
+	width: 100%;
+}
+.z_footer p {
+
+		width: 100%;
+		 display: inline-block;
+		 white-spacing:nowrap;
+
+}
+
+.zf-textarea textarea {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: #f4f4f4;
+  font-size: 14px;
+}
+.z-recharg th{
+	text-align: right;
+}
+.z-recharg td{
+	text-align: left;
+}
+.zf-check {
+  height: 22px;
+  font-size: 10px;
+  margin-top: -3px;
+  line-height: 10px;
+  margin-left: 10px;
+}
+.up_load_file{
+	width: 40%;
+	height: 20%;
+	display: block;
+}
+@media (min-width: 992px){
+	.z_input{
+		width: 50%;
+		float: left;
+	}
+}
+@media (min-width: 992px){
+	.hoteMoney{
+		width:23%;
+	}
+	.hoteMoney>.form-control{
+		width:34%;
+	}
+}
+select.col-xs-4,.lyheight-control{
+	width: 32%;
+	height: 35px;
+}
+@media (max-width:768px) {
+	select.col-xs-4,.lyheight-control{
+		width: 45.8%;
+	}
+}
+.z-p-ckeckbox{
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+.z-select-img{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background:  url('../img/cart.png') no-repeat 99% 40%;
+	padding-left: 5px;
+}
+@media (max-width:1100px) {
+	.z-p-ckeckbox{
+		min-width: 50%;
+	}
+}
+.z-ul li{
+	float: left;
+	font-weight: bold;
+	margin-right: 20px;
+	font-size: 14px;
+}
+.z-ul li span{
+	font-weight: normal;
+}
+.z_aptitude tr th{
+	text-align: right;
+}
+.z_aptitude tr td{
+	text-align: center;
+}
+.z_sell_deta tr th{
+	text-align: center;
+}

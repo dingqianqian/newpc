@@ -1,0 +1,13 @@
+div select {
+    width: 150px;
+    height: 30px;
+}
+.bootstrap-select>.dropdown-toggle{
+    height: 31px;
+}
+@media (max-width:768px ) {
+    div select{
+        width: 100%;
+        height: 28px;
+    }
+}

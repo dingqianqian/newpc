@@ -1,0 +1,88 @@
+.goB {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 80px;
+    background-color: #eee;
+}
+
+.goB .find-con {
+    margin: 0 auto;
+    width: 1200px;
+    line-height: 80px;
+}
+
+.goB .find-con .shou > img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 194px;
+    height: 47px;
+}
+
+.goB .find-con > span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.goB .find-con .goS {
+    float: right;
+    padding-top: 27px;
+}
+
+.goB .find-con .goS > img {
+    margin-left: 6px;
+    width: 6px;
+    height: 10px;
+}
+
+.goB .find-con .goS > span {
+    font-size: 16px;
+    color: #666;
+}
+
+/*.dange {
+    margin: 68px auto;
+    width: 1200px;
+}
+
+.dange img {
+    width: 24px;
+    height: 21px;
+}
+
+.dange span {
+    font-size: 18px;
+    color: #333;
+}*/
+
+.forgot-Jin {
+    margin: 88px auto 68px;
+    width: 754px;
+    height: 59px;
+}
+
+.forgot-Jin img {
+    width: 100%;
+    height: 100%;
+}
+
+#xiao {
+    display: block;
+    margin: 0 auto 68px;
+    width: 192px;
+    height: 144px;
+}
+
+#suLi {
+    display: block;
+    margin: 0 auto 100px;
+    border-radius: 8px;
+    width: 360px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: #980c3f;
+    font-size: 24px;
+    color: #fff;
+}

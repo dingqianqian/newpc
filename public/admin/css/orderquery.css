@@ -1,0 +1,110 @@
+@import url(reset.min.css);
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+.orderquery {
+  height: auto;
+  background: #DDEEF2;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderquery h1 {
+  background: #F4FAFB;
+  border: 1px solid #BBDDE5;
+  font-size: 14px;
+  padding: 7px 10px;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderquery h1 .action-spana {
+  float: right;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderquery h1 .action-spana a {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  padding: 2px 5px 2px 23px;
+  border: 1px solid #278296;
+  border-right: 2px solid #278296;
+  border-bottom: 2px solid #278296;
+  background: #DDEEF2;
+  background: url(../img/icon_add.gif) no-repeat 3px center;
+}
+.orderquery h1 .action-spana a:hover {
+  border: 1px solid #5FA6B6;
+  border-right: 2px solid #5FA6B6;
+  border-bottom: 2px solid #5FA6B6;
+  background: #ffffff url(../img/icon_add.gif) no-repeat 3px center;
+  color: #666;
+  text-decoration: none;
+}
+.orderquery h1 .action-spanb a {
+  color: #333;
+  font-weight: bold;
+}
+.orderquery h1 .action-spanc a {
+  color: #9CACAF;
+  font-weight: bold;
+}
+.orderquery .main-div {
+  background: #F4FAFB;
+  border: 1px solid #BBDDE5;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+.orderquery .main-div table {
+  background: #FFF;
+  width: 99%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+.orderquery .main-div table .label {
+  text-align: right;
+  vertical-align: top;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #192E32;
+  width: 30%;
+}
+.orderquery .main-div table tr .text {
+  width: 20%;
+  height: auto;
+  background: none;
+  border: 1px solid #9CACAF;
+  line-height: 18px;
+}
+.orderquery .main-div table tr .button {
+  cursor: pointer;
+  width: auto;
+  height: 20px;
+  background: null;
+  background: url(../img/button_bg.gif) repeat-x;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin: 2px 2px;
+  border: 1px solid #2D5082;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

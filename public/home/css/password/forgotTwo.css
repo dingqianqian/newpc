@@ -1,0 +1,212 @@
+.goB {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 80px;
+    background-color: #eee;
+}
+
+.goB .find-con {
+    margin: 0 auto;
+    width: 1200px;
+    line-height: 80px;
+}
+
+.goB .find-con .shou > img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 194px;
+    height: 47px;
+}
+
+.goB .find-con > span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.goB .find-con .goS {
+    float: right;
+    padding-top: 27px;
+}
+
+.goB .find-con .goS > img {
+    margin-left: 6px;
+    width: 6px;
+    height: 10px;
+}
+
+.goB .find-con .goS > span {
+    font-size: 16px;
+    color: #666;
+}
+
+.dange {
+    margin: 68px auto;
+    width: 1200px;
+}
+
+.dange img {
+    width: 24px;
+    height: 21px;
+}
+
+.dange span {
+    font-size: 18px;
+    color: #333;
+}
+
+.forgot-Jin {
+    margin: 0 auto 68px;
+    width: 754px;
+    height: 59px;
+}
+
+.forgot-Jin img {
+    width: 100%;
+    height: 100%;
+}
+
+.for-f {
+    position: relative;
+    margin: 0 auto;
+    width: 358px;
+}
+
+.for-f label {
+    position: relative;
+    display: block;
+    margin-bottom: 34px;
+    width: 358px;
+    height: 54px;
+}
+
+.for-f label input {
+    float: left;
+    border: 1px solid #ccc;
+    padding-left: 64px;
+    width: 292px;
+    height: 100%;
+    font-size: 16px;
+    color: #333;
+}
+
+.for-f label span {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 54px;
+    height: 54px;
+    background-color: #eee;
+}
+
+.for-f label span img {
+    display: inline-block;
+    margin: 18px 0 0 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.for-f label i {
+    display: none;
+    position: absolute;
+    right: 6px;
+    top: 18px;
+    width: 19px;
+    height: 18px;
+}
+
+.for-f label i img {
+    width: 100%;
+    height: 100%;
+}
+
+/*输入错误提示框*/
+.for-shi {
+    /*display: none;*/
+    margin: 0 auto 6px;
+    width: 356px;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background-color: rgba(178, 81, 116, .3);
+    border: .01rem solid rgba(152, 12, 63, .3);
+}
+
+.for-shi img {
+    margin: 0 7px;
+    vertical-align: middle;
+}
+
+.for-shi span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #eb0303;
+}
+
+/*安全强度提示*/
+
+.for-f .for-hd {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 7px;
+    width: 351px;
+    height: 22px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.for-f .for-hd li {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.for-f .for-hd li.sl {
+    display: block;
+}
+
+.for-f .for-hd li img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.for-f .for-hd li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #999;
+}
+
+/*提交按钮*/
+.for-f > input {
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 8px;
+    width: 360px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    background-color: #980c3f;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

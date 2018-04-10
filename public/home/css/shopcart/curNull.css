@@ -1,0 +1,177 @@
+/*进度条*/
+.jindu {
+    margin: 0 auto;
+    width: 1200px;
+    height: 142px;
+    line-height: 142px;
+}
+
+.jindu >a> img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 173px;
+    height: 42px;
+}
+
+.jindu p {
+    float: right;
+}
+
+.jindu > p > img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -13px;
+}
+
+.jindu > p > img:nth-child(1), .jindu > p > img:nth-child(2) {
+    width: 186px;
+    height: 28px;
+}
+
+.jindu > p > img:nth-child(3) {
+    width: 187px;
+    height: 28px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #efe9f5;
+}
+/*选择商品*/
+.om {
+    margin: 0 auto 128px;
+    border: 1px solid #ccc;
+    width: 1198px;
+    background-color: #f2f2f2;
+}
+
+.om dt {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 59px;
+    line-height: 59px;
+    font-size: 0;
+}
+
+.om dt span {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.om dt input {
+    margin: 0 5px 0 32px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    border-color: #666;
+}
+
+.om dt span:nth-child(1) {
+    margin-right: 245px;
+    margin-left: 20px;
+}
+
+.om dt span:nth-child(2) {
+    margin-right: 196px;
+}
+
+.om dt span:nth-child(3) {
+    margin-right: 151px;
+}
+
+.om dt span:nth-child(4) {
+    margin-right: 152px;
+}
+
+.om dt span:nth-child(5) {
+    margin-right: 113px;
+}
+.om dd{
+    width: 100%;
+}
+.om dd img{
+    display: block;
+    margin: 50px auto 26px;
+    width: 168px;
+    height: 168px;
+}
+.om dd p{
+    margin-bottom: 129px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.om dd p>a:hover{
+    text-decoration: underline;
+}
+/*删除收货地址的遮罩层*/
+.delHide {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 999999;
+}
+.delHide .zhaozhao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -330px;
+    margin-top: -174px;
+    border: 8px solid #999;
+    width: 660px;
+    height: 349px;
+    background-color: #fff;
+}
+
+.delHide .zhaozhao .btiao {
+    margin: 0;
+    padding-left: 24px;
+    width: 636px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    background-color: #eee;
+}
+
+.delHide .zhaozhao .gan {
+    margin: 56px 0;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.delHide .zhaozhao .gan img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 82px;
+    height: 82px;
+}
+
+.delHide .zhaozhao .gan span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delHide .zhaozhao a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.delHide .zhaozhao .laL {
+    margin: 0 30px 0 227px;
+}

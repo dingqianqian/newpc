@@ -1,0 +1,25 @@
+@media (min-width: 992px){
+	.hotelMoney{
+		width:38%;
+	}
+	.hotelMoney>.form-control{
+		width:38%;
+	}
+	#xiugaiInput .form-group{
+		margin-bottom: 5px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	#xiugaiInput .hotelMoney{
+		width:45%;
+		display: block;
+	}
+	.hotelMoney>.form-control{
+		width:35%;
+	}
+	#xiugaiInput .form-group{
+		margin-bottom: 5px;
+	}
+}

@@ -1,0 +1,8 @@
+.zf-select {
+    width: 66% !important;
+}
+@media screen and (max-width: 767px) {
+    .zf-select {
+        width: 100% !important;
+    }
+}

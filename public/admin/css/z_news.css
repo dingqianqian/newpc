@@ -1,0 +1,47 @@
+.z-select{
+	width: 73% !important;
+}
+.z-textarea{
+	width: 100% !important;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.btn-default{
+	background: #FFFFFF !important;
+}
+@media screen and (max-width: 1366px) {
+    .z-select {
+        width: 72.5% !important;
+    }
+}
+@media screen and (max-width: 1234px) {
+	.z-select {
+		width: 73.5% !important;
+	}
+}
+@media screen and (max-width: 997px) {
+    .z-select {
+        width: 64.5% !important;
+    }
+}
+
+@media (max-width:414px ) {
+	.z-select{
+		width: 62% !important;
+	}
+}
+@media (max-width:1924px ) {
+	.bootstrap-select > .dropdown-toggle{
+		width: 101.5% !important;
+	}
+}
+@media (max-width:1262px ) {
+	.bootstrap-select > .dropdown-toggle{
+		width: 100% !important;
+	}
+}
+.z-label{
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}

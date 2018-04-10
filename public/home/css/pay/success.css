@@ -1,0 +1,128 @@
+/*进度条*/
+.jindu {
+    margin: 0 auto;
+    width: 1200px;
+    height: 142px;
+    line-height: 142px;
+}
+
+.jindu > img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 173px;
+    height: 42px;
+}
+
+.jindu p {
+    float: right;
+}
+
+.jindu > p > img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -13px;
+}
+
+.jindu > p > img:nth-child(1), .jindu > p > img:nth-child(2) {
+    width: 186px;
+    height: 28px;
+}
+
+.jindu > p > img:nth-child(3) {
+    width: 187px;
+    height: 28px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #efe9f5;
+}
+
+/*支付成功*/
+.sc {
+    margin: 68px auto 0;
+    width: 1200px;
+}
+
+.dl {
+    margin: 0 auto;
+    width: 710px;
+    height: 118px;
+}
+
+.dl > img {
+    float: left;
+    margin-right: 16px;
+    width: 118px;
+    height: 118px;
+}
+
+.dl .z {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.dl .w {
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+}
+
+.dl .w span {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.dl .w em {
+    font-style: normal;
+    font-size: 20px;
+    color: #980c3f;
+}
+
+.dl .b {
+    margin-top: 9px;
+}
+
+.suCon .dji {
+    margin: 0 auto 277px;
+    text-align: center;
+    width: 1200px;
+}
+
+.suCon > .dji > a {
+    display: inline-block;
+    margin-top: 80px;
+    width: 238px;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #980c3f;
+}
+
+.suCon > .dji > a.jix {
+    margin-right: 96px;
+}
+
+.suCon > .dji > a.goB {
+    border: 1px solid #ccc;
+    color: #666;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,249 @@
+/*进度条*/
+.jindu {
+    margin: 0 auto;
+    width: 1200px;
+    height: 142px;
+    line-height: 142px;
+}
+
+.jindua>a > img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 173px;
+    height: 42px;
+}
+
+.jindu p {
+    float: right;
+}
+
+.jindu > p > img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -13px;
+}
+
+.jindu > p > img:nth-child(1), .jindu > p > img:nth-child(2) {
+    width: 186px;
+    height: 28px;
+}
+
+.jindu > p > img:nth-child(3) {
+    width: 187px;
+    height: 28px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #efe9f5;
+}
+
+/*ok手势*/
+.noFu {
+    position: relative;
+    /*margin: 36px auto 0;*/
+    margin: 36px auto 16px;
+    border-top: 1px solid #980c3f;
+    width: 1200px;
+    height: 202px;
+    background-color: #fdf1f5;
+}
+
+.noFu dt {
+    float: left;
+    margin: 31px 62px 0 92px;
+    width: 87px;
+    height: 112px;
+}
+
+.noFu dd.top {
+    margin-top: 39px;
+    font-size: 20px;
+    color: #980c3f;
+    font-weight: 600;
+}
+
+.noFu dd.mid {
+    margin-top: 14px;
+    font-size: 18px;
+    color: #333;
+}
+
+.noFu dd.mid span {
+    font-size: 20px;
+    color: #980c3f;
+}
+
+.noFu dd.lass {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+.noFu dd.lass .dao {
+    display: inline-block;
+    font-size: 20px;
+    color: #980c3f;
+}
+
+.noFu .youDetail {
+    position: absolute;
+    right: 16px;
+    bottom: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.noFu .youDetail span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #980c3f;
+}
+
+.noFu .youDetail img {
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    vertical-align: middle;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.noFu .youDetail img.cli {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*订单详情*/
+.orderD {
+    display: none;
+    /*margin: 16px auto 0;*/
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    padding-top: 13px;
+    width: 1200px;
+    text-align: center;
+}
+
+.orderD .orderC {
+    display: inline-block;
+    margin: -9px auto 0;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+
+.orderD .orderC p {
+    margin-top: 9px;
+}
+
+.orderD .orderC i, .orderD .orderC em {
+    font-style: normal;
+}
+
+.orderD .orderC .adres {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+}
+
+.orderD .orderC div.aDiv {
+    max-width: 850px;
+}
+
+/*选择付款方式*/
+.fash {
+    margin: 111px auto 0;
+    width: 998px;
+    font-size: 20px;
+    color: #980c3f;
+    font-weight: 600;
+}
+
+.ddetail {
+    position: relative;
+    margin: 114px auto 128px;
+    border: 1px solid #ccc;
+    width: 998px;
+    height: 492px;
+}
+
+.ddetail > p {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #980c3f;
+    font-weight: 600;
+}
+
+.ddetail .fanshi {
+    /*border-bottom: 1px solid #ccc;*/
+    padding-top: 60px;
+    width: 100%;
+    height: 370px;
+}
+
+.ddetail .fanshi p {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.ddetail .fanshi p img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 118px;
+    height: 28px;
+}
+
+.ddetail .fanshi p span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ddetail .fanshi p i {
+    font-size: 20px;
+    color: #980c3f;
+    font-style: normal;
+}
+
+.ddetail .fanshi .erwei {
+    display: block;
+    margin: 22px auto 12px;
+    width: 196px;
+    height: 196px;
+}
+
+.ddetail .fanshi .saoyi {
+    display: block;
+    margin: 0 auto;
+    width: 256px;
+    height: 50px;
+}
+
+.yes {
+    position: absolute;
+    right: 0;
+    margin: 16px 0 128px 0;
+    width: 132px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #980c3f;
+}

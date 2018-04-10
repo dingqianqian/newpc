@@ -1,0 +1,599 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 108px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/invoice/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+
+.er-title p a {
+    color: #333;
+}
+
+.er-title p a:hover {
+    color: #980c3f;
+}
+
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 1131px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+/*右侧内容*/
+.tStepCont {
+    float: right;
+    margin-bottom: 68px;
+    padding: 21px 24px 24px;
+    width: 998px;
+    min-height: 1131px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont h3 {
+    margin-bottom: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #333;
+}
+
+.tStepCont > .lieB {
+    border: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    font-size: 0;
+}
+
+.tStepCont > .lieB > span {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont > .lieB > span:nth-child(1) {
+    width: 230px;
+}
+
+.tStepCont > .lieB > span:nth-child(3) {
+    width: 192px;
+}
+
+.tStepCont > .lieB > span:nth-child(4) {
+    width: 219px;
+}
+
+.tStepCont > .lieB > span:nth-child(2) {
+    width: 142px;
+}
+
+.tStepCont > .lieB > span:nth-child(5) {
+    width: 165px;
+}
+
+.tStepCont > ul {
+    /* max-height: 953px;
+     overflow-y: auto;*/
+    margin-bottom: 32px;
+    width: 950px;
+}
+
+.tStepCont > ul > li {
+    position: relative;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 950px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont > ul > li .inCon {
+    float: left;
+    width: 372px;
+}
+
+.tStepCont > ul > li .inCon > li {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 28px 0;
+    width: 372px;
+    height: 146px;
+    font-size: 0;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont > ul > li .inCon > li:last-child {
+    border-bottom: none;
+}
+
+.tStepCont > ul > li .inCon > li .lef {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    width: 225px;
+    font-size: 0;
+}
+
+.tStepCont > ul > li .inCon > li img {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 90px;
+    height: 90px;
+}
+
+.tStepCont > ul > li .inCon > li p {
+    display: inline-block;
+    vertical-align: middle;
+    height: 90px;
+    line-height: 90px;
+    font-size: 16px;
+}
+
+.tStepCont > ul > li .inCon > li .ming {
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.tStepCont > ul > li .inR {
+    position: absolute;
+    right: 0;
+    width: 576px;
+    height: 100%;
+    font-size: 0;
+}
+
+.tStepCont > ul > li .inR > div {
+    display: inline-block;
+    height: 100%;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.tStepCont > ul > li .shuL {
+    width: 141px;
+    text-align: center;
+}
+
+.tStepCont > ul > li .bianhao {
+    width: 192px;
+    line-height: 146px;
+}
+
+.tStepCont > ul > li .shijian {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 217px;
+    line-height: 146px;
+}
+
+.tStepCont > ul > li .chaKan {
+    position: relative;
+    width: 165px;
+    line-height: 146px;
+    font-size: 0;
+    text-align: left;
+}
+
+.tStepCont > ul > li .chaKan a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 98px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #980c3f;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.tStepCont > ul > li .chaKan img {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.tStepCont > ul > li .chaKan a.suc {
+    background-color: #999;
+}
+
+.tStepCont > ul > li:hover .chaKan img {
+    display: inline-block;
+}
+
+/*没有商品*/
+
+.tStepCont .noneD {
+    margin-top: 206px;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+}
+
+.tStepCont .noneD img {
+    vertical-align: middle;
+    width: 54px;
+    height: 58px;
+}
+
+.tStepCont .noneD span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 24px;
+    font-size: 24px;
+    color: #666;
+    width: 300px;
+}
+
+/*删除商品遮罩层*/
+.delHide {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 999999;
+}
+
+.delHide .zhaozhao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -330px;
+    margin-top: -174px;
+    border: 8px solid #999;
+    width: 660px;
+    height: 349px;
+    background-color: #fff;
+}
+
+.delHide .zhaozhao .btiao {
+    margin: 0;
+    padding-left: 24px;
+    width: 636px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    background-color: #eee;
+}
+
+.delHide .zhaozhao .gan {
+    margin: 56px 0;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.delHide .zhaozhao .gan img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 82px;
+    height: 82px;
+}
+
+.delHide .zhaozhao .gan span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delHide .zhaozhao a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.delHide .zhaozhao .laL {
+    margin: 0 30px 0 227px;
+}
+
+/*分页*/
+.fenY {
+    height: 50px;
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+}
+
+.fenY .pagination {
+    height: 100%;
+    line-height: 50px;
+}
+
+.fenY .pagination > li {
+    margin-left: 10px;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.fenY .pagination > li.disabled {
+    color: #999;
+}
+
+.fenY .pagination > li.active {
+    background-color: #980c3f;
+    color: #fff;
+}
+
+.fenY .pagination > li:first-child, .fenY .pagination > li:last-child {
+    border: 1px solid #ccc;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.fenY .pagination > li > span, .fenY .pagination > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.fenY .pagination > li > a {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

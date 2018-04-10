@@ -1,0 +1,64 @@
+body {
+  background-color: #f8f8f8;
+}
+body .appHead {
+  border-bottom: .06rem solid #30c9bf;
+  padding: .4rem 0;
+  background-color: #fff;
+  text-align: center;
+}
+body .appHead img {
+  display: block;
+  margin: 0 auto;
+  width: 3.04rem;
+  height: 1.41rem;
+}
+body .appBody {
+  padding-top: .42rem;
+  background-color: #fff;
+  text-align: center;
+}
+body .appBody .top {
+  font-size: .26rem;
+  color: #333;
+}
+body .appBody div {
+  padding: .24rem 0;
+}
+body .appBody div img {
+  display: block;
+  margin: 0 auto;
+  width: 1.4rem;
+  height: .25rem;
+}
+body .appBody .bot {
+  padding-bottom: 1.58rem;
+  font-size: .24rem;
+  color: #333;
+}
+body .appContent {
+  padding: .24rem .24rem 0 .24rem;
+  font-size: .24rem;
+  color: #333;
+  line-height: .4rem;
+}
+body .appContent ul {
+  margin-top: .36rem;
+}
+body .appContent ul li {
+  margin-top: .24rem;
+}
+body .appContent ul li i {
+  display: inline-block;
+  margin-right: .14rem;
+  border-radius: 50%;
+  width: .2rem;
+  height: .2rem;
+  background-color: #eec31e;
+}
+body .appFooter {
+  padding: 1.36rem 0;
+  text-align: center;
+  font-size: .24rem;
+  color: #666;
+}

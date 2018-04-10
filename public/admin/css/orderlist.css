@@ -1,0 +1,217 @@
+@import url(reset.min.css);
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+.orderlist {
+  height: auto;
+  background: #DDEEF2;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderlist h1 {
+  background: #F4FAFB;
+  border: 1px solid #BBDDE5;
+  font-size: 14px;
+  padding: 7px 10px;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderlist h1 .action-spana {
+  float: right;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderlist h1 .action-spana a {
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  padding: 2px 5px 2px 23px;
+  border: 1px solid #278296;
+  border-right: 2px solid #278296;
+  border-bottom: 2px solid #278296;
+  background: #DDEEF2;
+  background: url(../img/icon_add.gif) no-repeat 3px center;
+}
+.orderlist h1 .action-spana a:hover {
+  border: 1px solid #5FA6B6;
+  border-right: 2px solid #5FA6B6;
+  border-bottom: 2px solid #5FA6B6;
+  background: #ffffff url(../img/icon_add.gif) no-repeat 3px center;
+  color: #666;
+  text-decoration: none;
+}
+.orderlist h1 .action-spanb a {
+  color: #333;
+}
+.orderlist h1 .action-spanc a {
+  color: #9CACAF;
+}
+.orderlist .form-div {
+  width: 100%;
+  height: 36px;
+  background: null;
+  background: #F4FaFb;
+  border: 1px solid #BBDDE5;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #808080;
+  margin: 0 0 10px 0;
+}
+.orderlist .form-div ul li {
+  line-height: 24px;
+  float: left;
+  font-size: 12px;
+  padding: 0 2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderlist .form-div ul li .img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.orderlist .form-div ul li .button {
+  padding: 2px 8px 0px;
+  margin: 2px 2px;
+  border: 1px solid #2D5082;
+  background: url(../img/button_bg.gif) repeat-x;
+}
+.orderlist .form-div ul li span {
+  cursor: pointer;
+}
+.orderlist .main-div {
+  width: 100%;
+  background: #EEF8F9;
+  border: 1px solid #BBDDE5;
+}
+.orderlist .main-div table {
+  display: table;
+}
+.orderlist .main-div table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+}
+.orderlist .main-div table tbody tr th {
+  border: solid #add9c0;
+  border-width: 0px 1px 1px 0px;
+  line-height: 24px;
+  background: #bbdde5 url(../img/th_bg.gif) repeat-x;
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.orderlist .main-div table tbody tr th a {
+  color: #335B64;
+}
+.orderlist .main-div table tbody tr th a:hover {
+  color: #EB8A3D;
+}
+.orderlist .main-div table tbody tr th {
+  width: 14%;
+  height: 30px;
+  background: null;
+}
+.orderlist .main-div table tbody tr td {
+  border: solid #add9c0;
+  height: 50px;
+  border-width: 0px 1px 1px 0px;
+  padding: 10px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #FFF;
+  line-height: 22px;
+  text-align: center;
+  font-size: 12px;
+}
+.orderlist .main-div table tbody tr td a {
+  text-decoration: underline;
+  color: #335B64;
+}
+.orderlist .main-div table tbody tr td a:hover {
+  color: #EB8A3D;
+}
+.orderlist .main-div table tbody tr td .check {
+  margin-right: 5px;
+}
+.orderlist .main-div table tbody tr td:last-child span a {
+  text-decoration: underline;
+  color: #335B64;
+}
+.orderlist .main-div table tbody tr td:last-child span a:hover {
+  color: #EB8A3D;
+}
+.orderlist .main-div table tbody tr td:last-child .button {
+  cursor: pointer;
+  width: auto;
+  height: 20px;
+  background: null;
+  background: url(../img/button_bg.gif) repeat-x;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin-left: 5px;
+  border: 1px solid #2D5082;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderlist .main-div table tbody tr:hover {
+  background-color: #ffffff;
+}
+.orderlist .main-div .page-link {
+  text-align: right;
+  padding: 5px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderlist .main-div .page-link span {
+  display: inline-block;
+  margin: 0 10px;
+}
+.orderlist .main-div .page-link a {
+  width: auto;
+  height: 20px;
+  background: null;
+  background: url(../img/button_bg.gif) repeat-x;
+  font-size: 12px;
+  padding: 2px 8px 2px 8px;
+  margin-left: 5px;
+  border: 1px solid #2D5082;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.orderlist .footer {
+  background: #F4FaFb;
+  border: 1px solid #BBDDE5;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #9CACAF;
+  margin: 10px 0;
+  text-align: center;
+}

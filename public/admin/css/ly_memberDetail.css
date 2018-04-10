@@ -1,0 +1,19 @@
+/*会员详情*/
+#fontSize tbody>tr > td:first-child, #fontSize tr > td:nth-child(3){
+    font-weight:bold;
+    text-align: right;
+}
+.d_val{
+    display: block;
+    margin-left: 5px;
+    margin-top: 30px;
+    width: 96%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}

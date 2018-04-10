@@ -1,0 +1,654 @@
+/*!*head*!
+.head {
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+}
+
+.head_l, .head_m {
+    float: left;
+}
+
+.head_l div {
+    display: inline-block;
+    margin-right: 8px;
+    border: 1px solid #fff;
+    padding-left: 3px;
+    line-height: 28px;
+    width: 59px;
+}
+
+.head_l {
+    position: relative;
+}
+
+.head_l ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 29px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 170px;
+    line-height: 24px;
+    background-color: #fff;
+    font-size: 12px;
+    color: #666;
+}
+
+.head_l ul li {
+    float: left;
+    padding: 0 8px;
+    width: 44px;
+    cursor: pointer;
+}
+
+.head_l div i {
+    position: absolute;
+    left: 1px;
+    top: 29px;
+    height: 1px;
+    width: 62px;
+    background-color: #fff;
+    z-index: 10000;
+}
+
+.head_l div:hover {
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+    border-right-color: #ccc;
+}
+
+.head_l div:hover ul {
+    display: block;
+}
+
+.head_r {
+    float: right;
+}
+
+.head_l img {
+    display: inline-block;
+    width: 13px;
+    height: 19px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.head_l span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.head_l span, .head_l em {
+    font-size: 12px;
+    color: #980c3f;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.head_l {
+    margin-right: 36px;
+}
+
+.head_m {
+    color: #666;
+    font-size: 12px;
+}
+
+.head_m a {
+    color: #980c3f;
+}
+
+.head_r {
+    font-size: 0px;
+    color: #666;
+    height: 30px;
+}
+
+.head_r span {
+    display: inline-block;
+    !*margin-top: 7px;*!
+    line-height: 16px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.head_r .r_one img {
+    margin: 0 8px 0 6px;
+    width: 9px;
+    height: 6px;
+}
+
+.head_r .shou {
+    padding: 0 16px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+.head_r .myi {
+    padding: 0 16px;
+    border-right: 1px solid #eeeeee;
+}
+
+.head_r .r-two img {
+    margin: 0 5px 0 16px;
+    width: 9px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.head_r .r_one, .head_r .r-two {
+    position: relative;
+    padding-left: 9px;
+    border: 1px solid #fff;
+    width: 75px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.head_r .r-two {
+    padding-right: 9px;
+    padding-left: 0;
+    width: 90px;
+}
+
+.head_r .r_one:hover, .head_r .r-two:hover {
+    border-top-color: #ccc;
+    border-left-color: #ccc;
+    border-right-color: #ccc;
+}
+
+.head_r .r_one img {
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+    vertical-align: middle;
+}
+
+.head_r .r_one:hover img {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.head_r .r_one:hover ul {
+    display: block;
+    border-top-color: #fff;
+}
+
+.head_r .r_one ul {
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    z-index: 10000;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.head_r .r_one li {
+    padding-left: 9px;
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.head_r .r_one li:hover a {
+    color: #980c3f;
+}
+
+.head_r .r_one li a {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+}
+
+.head_r .r-two .bot {
+    display: none;
+    position: absolute;
+    right: -1px;
+    top: 29px;
+    margin: 0;
+    width: 300px;
+    height: 375px;
+}
+
+.head_r .r-two:hover .bot {
+    display: block;
+}*/
+
+/*进度条*/
+.jindu {
+    margin: 0 auto;
+    width: 1200px;
+    height: 142px;
+    line-height: 142px;
+}
+
+.jindu > a > img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 173px;
+    height: 42px;
+}
+
+.jindu p {
+    float: right;
+}
+
+.jindu > p > img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -13px;
+}
+
+.jindu > p > img:nth-child(1), .jindu > p > img:nth-child(2) {
+    width: 186px;
+    height: 28px;
+}
+
+.jindu > p > img:nth-child(3) {
+    width: 187px;
+    height: 28px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #efe9f5;
+}
+
+/*选择商品*/
+.only {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    width: 1200px;
+    background-color: #f2f2f2;
+}
+
+.only dt {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 59px;
+    line-height: 59px;
+    font-size: 0;
+}
+
+.only dt span {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.only dt input {
+    margin: 0 5px 0 32px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    border-color: #666;
+}
+
+.only dt span:nth-child(1) {
+    margin-right: 245px;
+    margin-left: 20px;
+}
+
+.only dt span:nth-child(2) {
+    margin-right: 196px;
+}
+
+.only dt span:nth-child(3) {
+    margin-right: 151px;
+}
+
+.only dt span:nth-child(4) {
+    margin-right: 152px;
+}
+
+.only dt span:nth-child(5) {
+    margin-right: 113px;
+}
+
+.only dd {
+    width: 100%;
+    height: 160px;
+    line-height: 160px;
+}
+
+.only dd:nth-child(2) {
+    margin-top: -1px;
+}
+
+.only dd .lBu {
+    position: relative;
+    float: left;
+}
+
+.only dd .lBu:before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 485px;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.only dd .lBu label {
+    float: left;
+    width: 174px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.only dd .lBu input {
+    float: left;
+    display: inline-block;
+    margin: 72px 127px 0 32px;
+    border: 1px solid #666;
+    width: 16px;
+    height: 16px;
+}
+
+.only dd .left {
+    float: left;
+    display: inline-block;
+    margin-top: 30px;
+    width: 305px;
+    height: 100px;
+}
+
+.only dd .left img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.only dd p {
+    float: right;
+    padding-left: 10px;
+}
+
+.only dd .left .t {
+    margin-top: 10px;
+    width: 195px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.only dd .left .b {
+    float: left;
+    /*width: 195px;*/
+    width: 171px;
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+    height: 16px;
+    line-height: 16px;
+    /*font-size: 14px;*/
+    font-size: 12px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.only dd .right {
+    float: left;
+    width: 180px;
+    height: 160px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.only dd .right em {
+    font-style: normal;
+}
+
+.mBu {
+    position: relative;
+    float: left;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 214px;
+    height: 159px;
+    line-height: 159px;
+}
+
+.mBu input {
+    display: inline-block;
+    margin: 0 10px 0 59px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.mBu img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.mBu img:nth-child(2) {
+    top: 43px;
+}
+
+.mBu img:nth-child(3) {
+    top: 80px;
+}
+
+.del {
+    float: left;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 149px;
+    height: 159px;
+    line-height: 159px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.del a {
+    color: #333;
+}
+
+.pri {
+    float: left;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 174px;
+    height: 159px;
+    line-height: 159px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.bot {
+    position: relative;
+    margin: 0 auto 160px;
+    border: 1px solid #ccc;
+    border-top-width: 0;
+    width: 1200px;
+    height: 65px;
+    line-height: 65px;
+    background-color: #f2f2f2;
+}
+
+.bot > div.sec {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border: 1px solid #ccc;
+    border-bottom-width: 0;
+    width: 1200px;
+    height: 65px;
+    line-height: 65px;
+    background-color: #f2f2f2;
+}
+
+.bot .tp {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.bot .tp input {
+    margin: 0 6px 0 32px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.bot .tp span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bot .mp {
+    float: left;
+    display: inline-block;
+    margin-left: 62px;
+    font-size: 16px;
+    color: #980c3f;
+    cursor: pointer;
+}
+
+.bot .rCon {
+    float: right;
+    /*padding-top: 5px;*/
+    width: 300px;
+    /*height: 59px;*/
+    height: 64px;
+    text-align: left;
+}
+
+.bot .rCon p {
+    height: 64px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #333;
+}
+
+.bot .zCon {
+    float: right;
+    width: 150px;
+    height: 65px;
+    background-color: #980c3f;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bot .rCon i {
+    font-style: normal;
+}
+
+.bot .rCon .rj {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/*删除收货地址的遮罩层*/
+.delHide {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 999999;
+}
+
+.delHide .zhaozhao {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -330px;
+    margin-top: -174px;
+    border: 8px solid #999;
+    width: 660px;
+    height: 349px;
+    background-color: #fff;
+}
+
+.delHide .zhaozhao .btiao {
+    margin: 0;
+    padding-left: 24px;
+    width: 636px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    background-color: #eee;
+}
+
+.delHide .zhaozhao .gan {
+    margin: 56px 0;
+    width: 100%;
+    height: 82px;
+    line-height: 82px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.delHide .zhaozhao .gan img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 82px;
+    height: 82px;
+}
+
+.delHide .zhaozhao .gan span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.delHide .zhaozhao a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 86px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.delHide .zhaozhao .laL {
+    margin: 0 30px 0 227px;
+}
+
+
+
+
+
+
+
+
+

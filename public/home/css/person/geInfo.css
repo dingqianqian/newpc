@@ -1,0 +1,486 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.steps {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    /*background-color: #f2f2f2;*/
+    background-color: #fff;
+    font-size: 0;
+}
+
+.steps .steCon {
+    margin: 0 auto;
+    width: 1200px;
+    height: 111px;
+    line-height: 111px;
+}
+
+.steCon > a > img {
+    margin-right: 10px;
+    width: 173px;
+    height: 42px;
+    vertical-align: middle;
+}
+
+.steCon > ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steCon > ul > li {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+
+.steCon > ul > li > a {
+    display: block;
+    font-size: 18px;
+    color: #980c3f;
+}
+
+.steCon > ul > .ulLiOne:hover .hideOl {
+    display: block;
+}
+
+.steCon .hideOl {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 73px;
+    width: 108px;
+    height: 160px;
+    background-color: #fff;
+    z-index: 9999;
+    text-align: center;
+}
+
+.steCon .hideOl li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.steCon .hideOl li:hover span {
+    color: #980c3f;
+}
+
+.steCon .hideOl li a {
+    display: block;
+    line-height: 28px;
+}
+
+.steCon .hideOl li img {
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+}
+
+.steCon .hideOl li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.steCon form input[type='text'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #980c3f;
+    padding-left: 8px;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    color: #333;
+}
+
+.steCon form input[type='submit'] {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-left: -6px;
+    /*padding-right: 8px;*/
+    width: 42px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #980c3f;
+    font-size: 16px;
+    color: #fff;
+    text-align: right;
+    background: url("../../images/person/fangda.png") no-repeat 10px 10px;
+    background-color: #980c3f;
+    cursor: pointer;
+}
+
+/*title*/
+.er-title {
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    /*background-color: #eee;*/
+}
+
+.er-title p {
+    margin: 0 auto;
+    width: 1200px;
+    height: 46px;
+    font-size: 18px;
+    color: #333;
+}
+
+.er-title p span {
+    color: #980c3f;
+}
+
+.er-title p a {
+    color: #333;
+}
+
+.er-title p a:hover {
+    color: #980c3f;
+}
+
+/*左侧导航栏*/
+.oStep {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.oStepC {
+    float: left;
+    width: 178px;
+    height: 1131px;
+    background-color: #fff;
+}
+
+.oStepC dl {
+    font-size: 0;
+    margin-top: 8px;
+}
+
+.oStepC dl dt {
+    padding-left: 24px;
+    width: 154px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.oStepC dl img {
+    margin-right: 8px;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+
+.oStepC dl dt span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #980c3f;
+}
+
+.oStepC dl dd {
+    padding-left: 24px;
+    width: 154px;
+}
+
+.oStepC dl dd a {
+    display: block;
+    padding-left: 35px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.oStepC dl dd a:hover {
+    color: #980c3f;
+    /*text-decoration: underline;*/
+}
+
+/*右侧内容*/
+.tStepCont {
+    float: right;
+    margin-bottom: 68px;
+    padding: 24px;
+    width: 998px;
+    height: 1131px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont .conTop {
+    margin-top: 45px;
+    border: 1px solid #ccc;
+    width: 948px;
+    height: 138px;
+}
+
+.tStepCont .conTop > .pic {
+    display: inline-block;
+    margin: -45px 16px 0 37px;
+    border: 2px solid #980c3f;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 118px;
+    height: 118px;
+}
+
+.tStepCont .conTop > .pic img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.tStepCont .conTop .titTop {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -45px;
+    width: 614px;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont .conTop .titTop i, .tStepCont .conTop .titTop em {
+    font-style: normal;
+}
+
+.tStepCont .conTop .titTop > p:nth-child(1) span {
+    margin-right: 20px;
+}
+
+.tStepCont .conTop .titTop .sishi {
+    border-bottom: 1px solid #eee;
+    height: 40px;
+    line-height: 40px;
+}
+
+.tStepCont .conTop .titTop .sishi span:nth-child(1) {
+    margin-right: 32px;
+}
+
+.tStepCont .conTop .huiy {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #eee;
+}
+
+.tStepCont .conTop .huiy i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 21px;
+    height: 19px;
+}
+
+.tStepCont .conTop .huiy i.huiO {
+    background: url("../../images/person/priPu.png") no-repeat center center;
+}
+
+.tStepCont .conTop .huiy i.huiT {
+    background: url("../../images/person/priHuang.png") no-repeat center center;
+}
+
+.tStepCont .conTop .huiy span, .tStepCont .conTop .huiy em {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tStepCont .conTop .cuan {
+    padding-top: 12px;
+}
+
+.tStepCont .conTop .cuan a {
+    display: block;
+    float: left;
+    vertical-align: middle;
+    margin-right: 24px;
+}
+
+.tStepCont .conTop .cuan a:hover em {
+    color: #980c3f;
+}
+
+.tStepCont .conTop .cuan a i {
+    margin-right: 10px;
+}
+
+.tStepCont .conTop .cuan a em {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+}
+
+.tStepCont .conTop .cuan a:nth-child(1) i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url("../../images/person/priXiu.png") no-repeat center center;
+}
+
+.tStepCont .conTop .cuan a:nth-child(2) i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 17px;
+    background: url("../../images/person/priShou.png") no-repeat center center;
+}
+
+.tStepCont .conTop .cuan a:nth-child(3) i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url("../../images/person/priBang.png") no-repeat center center;
+}
+
+.tStepCont .conTop .chongzhi {
+    float: right;
+    margin-top: -40px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 92px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #980c3f;
+}
+
+/*任务*/
+.tStepCont .conMid {
+    margin-top: 24px;
+    border: 1px solid #ccc;
+    width: 948px;
+    height: 166px;
+}
+
+.tStepCont .conMid li {
+    float: left;
+    margin-left: 37px;
+    width: 166px;
+    height: 150px;
+}
+
+.tStepCont .conMid li h5 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont .conMid li h5 i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    background: url("../../images/person/priQiandao.png") no-repeat center center;
+}
+
+.tStepCont .conMid li h5 span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.tStepCont .conMid li p {
+    position: relative;
+    border: 1px solid #980c3f;
+    padding: 10px;
+    width: 166px;
+    height: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tStepCont .conMid li p span {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.tStepCont .conMid li p a {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+    color: #980c3f;
+    font-weight: 500;
+}
+
+.tStepCont .conBot {
+    margin-top: 24px;
+}
+
+.tStepCont .conBot li {
+    float: left;
+    width: 237px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.tStepCont .conBot li img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.tStepCont .conBot li p {
+    margin: 13px 0 10px 0;
+}
+
+.tStepCont .conBot li a {
+    display: block;
+    color: #333;
+}
+
+.tStepCont .conBot li a:hover {
+    color: #980c3f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

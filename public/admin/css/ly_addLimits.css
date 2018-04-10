@@ -1,0 +1,15 @@
+@media (max-width: 1092px ) and (min-width: 992px) {
+    select.col-xs-4{
+        width:31.5%;
+    }
+}
+@media (max-width: 991px ) and (min-width: 768px) {
+    select.col-xs-4{
+        width:31%;
+    }
+}
+@media (max-width: 768px ) and (min-width: 620px) {
+    #limitsDengji select.from-control{
+        width:47.8%;
+    }
+}
